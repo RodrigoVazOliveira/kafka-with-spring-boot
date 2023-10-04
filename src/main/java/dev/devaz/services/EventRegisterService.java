@@ -11,7 +11,7 @@ public class EventRegisterService {
         this.kafkaTemplate = kafkaTemplate;
     }
 
-    private <T> void addEvent(final String topic, T data) {
+    public <T> void addEvent(final String topic, T data) {
         kafkaTemplate.send(topic, data);
     }
 }
