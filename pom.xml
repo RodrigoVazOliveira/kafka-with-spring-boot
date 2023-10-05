@@ -11,5 +11,6 @@
 	<modules>
 		<module>consumer-topics</module>
 		<module>producer-spring</module>
+		<module>commons</module>
 	</modules>
 </project>
